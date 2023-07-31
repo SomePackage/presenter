@@ -2,7 +2,7 @@
 
 namespace SomePackage\Presenter;
 
-class PresenterTrait
+trait PresenterTrait
 {
     public function setPresenterClass(string $class)
     {
