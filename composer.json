@@ -1,21 +1,16 @@
 {
-  "name": "SomePackage/presenter",
-  "description": "Eloquent models or arrays presenter for Laravel 9 or higher",
-  "keywords": ["laravel", "model", "presenter", "eloquent"],
-  "require": {
-    "illuminate/support": "8.*|9.*|10.*|11.*"
-  },
-  "autoload": {
-    "psr-4": {
-      "SomePackage\\Presenter\\": "src/"
-    }
-  },
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Some",
-      "email": "some-package@gmail.com"
-    }
-  ],
-  "minimum-stability": "stable"
+    "name": "somepackage/presenter",
+    "description": "Eloquent models or arrays presenter for Laravel 9 or higher",
+    "keywords": ["laravel", "model", "presenter", "eloquent"],
+    "type": "library",
+    "require": {
+        "illuminate/support": "8.*|9.*|10.*|11.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SomePackage\\Presenter\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
 }
